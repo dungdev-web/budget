@@ -177,14 +177,14 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-4">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 p-4">
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="mb-8 flex items-center justify-between">
           <div>
             <div className="flex items-center gap-2 mb-2">
               <Wallet className="w-8 h-8 text-blue-400" />
-              <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+              <h1 className="text-4xl font-bold bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                 Budget Tracker
               </h1>
             </div>
@@ -213,7 +213,7 @@ export default function App() {
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           {/* Total Balance */}
-          <div className="bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl p-6 border border-slate-600 hover:border-blue-500 transition-all shadow-lg">
+          <div className="bg-linear-to-br from-slate-700 to-slate-800 rounded-2xl p-6 border border-slate-600 hover:border-blue-500 transition-all shadow-lg">
             <p className="text-slate-400 text-sm font-semibold mb-2">
               Tổng số dư
             </p>
@@ -236,7 +236,7 @@ export default function App() {
           </div>
 
           {/* Income */}
-          <div className="bg-gradient-to-br from-emerald-900 to-emerald-800 rounded-2xl p-6 border border-emerald-700 hover:border-emerald-500 transition-all shadow-lg">
+          <div className="bg-linear-to-br from-emerald-900 to-emerald-800 rounded-2xl p-6 border border-emerald-700 hover:border-emerald-500 transition-all shadow-lg">
             <div className="flex items-center justify-between mb-2">
               <p className="text-emerald-300 text-sm font-semibold">Thu nhập</p>
               <TrendingUp className="w-5 h-5 text-emerald-400" />
@@ -247,7 +247,7 @@ export default function App() {
           </div>
 
           {/* Expense */}
-          <div className="bg-gradient-to-br from-red-900 to-red-800 rounded-2xl p-6 border border-red-700 hover:border-red-500 transition-all shadow-lg">
+          <div className="bg-linear-to-br from-red-900 to-red-800 rounded-2xl p-6 border border-red-700 hover:border-red-500 transition-all shadow-lg">
             <div className="flex items-center justify-between mb-2">
               <p className="text-red-300 text-sm font-semibold">Chi tiêu</p>
               <TrendingDown className="w-5 h-5 text-red-400" />
@@ -262,14 +262,14 @@ export default function App() {
         <div className="mb-8">
           <button
             onClick={exportExcel}
-            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-3 rounded-xl transition-all duration-200 shadow-lg hover:shadow-purple-500/50"
+            className="w-full bg-linear-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-3 rounded-xl transition-all duration-200 shadow-lg hover:shadow-purple-500/50"
           >
             📥 Xuất Excel
           </button>
         </div>
 
         {/* Add Transaction */}
-        <div className="bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl p-6 border border-slate-600 shadow-lg mb-8">
+        <div className="bg-linear-to-br from-slate-700 to-slate-800 rounded-2xl p-6 border border-slate-600 shadow-lg mb-8">
           <h2 className="text-lg font-bold text-white mb-4">
             Thêm giao dịch mới
           </h2>
@@ -316,7 +316,7 @@ export default function App() {
             <button
               onClick={addTransaction}
               disabled={loading}
-              className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-blue-500/50"
+              className="w-full bg-linear-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-blue-500/50"
             >
               <Plus className="w-5 h-5" />
               {loading ? "Đang thêm..." : "Thêm giao dịch"}
@@ -325,7 +325,7 @@ export default function App() {
         </div>
 
         {/* Transactions List */}
-        <div className="bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl p-6 border border-slate-600 shadow-lg">
+        <div className="bg-linear-to-br from-slate-700 to-slate-800 rounded-2xl p-6 border border-slate-600 shadow-lg">
           <h2 className="text-lg font-bold text-white mb-4">
             Lịch sử giao dịch ({transactions.length})
           </h2>
