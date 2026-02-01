@@ -35,9 +35,9 @@ import { saveAs } from "file-saver";
 import { getCategoryMeta } from "./utils/category";
 
 // Import chart components
-import ExpensePieChart from "./components/Expensepiechart";
-import MonthlyTrendChart from "./components/Monthlytrendchart";
-import CategoryBarChart from "./components/CategoryBarchart";
+import ExpensePieChart from "./components/ExpensePieChart";
+import MonthlyTrendChart from "./components/MonthlyTrendChart";
+import CategoryBarChart from "./components/CategoryBarChart";
 import AnalyticsPanel from "./components/AnalyticsPanel";
 
 export default function App() {
