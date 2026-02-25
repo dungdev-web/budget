@@ -203,6 +203,3 @@ transactions {
 
 ---
 
-**Developed with ❤️ by Claude**
-
-🌟 Nếu thích project này, đừng quên star nhé!
