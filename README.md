@@ -2,32 +2,32 @@
 
 Ứng dụng quản lý chi tiêu cá nhân hiện đại với Firebase, React, và Chart.js
 
-## ✨ Tính năng nổi bật
+## Tính năng nổi bật
 
-### 🎯 Tính năng cơ bản
+### Tính năng cơ bản
 - ✅ Đăng nhập bằng Google Firebase Authentication
 - ✅ Thêm, sửa, xóa giao dịch
 - ✅ Phân loại giao dịch theo 8 danh mục
 - ✅ Tìm kiếm và lọc giao dịch
 - ✅ Theo dõi thu nhập, chi tiêu, số dư
 
-### 📊 Tính năng nâng cao
-- 📈 **Biểu đồ tròn**: Chi tiêu theo danh mục
-- 📉 **Biểu đồ xu hướng**: Thu nhập vs Chi tiêu theo tháng
-- 📊 **Phân tích chi tiết**: 
+### Tính năng nâng cao
+- **Biểu đồ tròn**: Chi tiêu theo danh mục
+- **Biểu đồ xu hướng**: Thu nhập vs Chi tiêu theo tháng
+- **Phân tích chi tiết**: 
   - Trung bình chi tiêu mỗi ngày
   - Giao dịch lớn nhất/nhỏ nhất
   - Tỷ lệ chi tiêu theo từng danh mục
 - 💾 **Xuất Excel**: Export toàn bộ dữ liệu
 
-### 🎨 UI/UX
-- 🌈 Gradient màu sắc hiện đại
-- 🎭 3 chế độ xem: Danh sách, Biểu đồ, Phân tích
-- 📱 Responsive hoàn toàn
-- ⚡ Real-time updates
-- 🎯 Smooth animations
+### UI/UX
+- Gradient màu sắc hiện đại
+- 3 chế độ xem: Danh sách, Biểu đồ, Phân tích
+- Responsive hoàn toàn
+- Real-time updates
+- Smooth animations
 
-## 🚀 Cài đặt
+## Cài đặt
 
 ### 1. Cài đặt dependencies
 
@@ -88,7 +88,7 @@ npm run dev
 yarn dev
 ```
 
-## 📁 Cấu trúc Project
+## Cấu trúc Project
 
 ```
 budget-tracker-pro/
@@ -101,7 +101,7 @@ budget-tracker-pro/
 └── README.md                  # Tài liệu
 ```
 
-## 📊 Components
+## Components
 
 ### 1. ExpensePieChart
 - Hiển thị phân bố chi tiêu theo 8 danh mục
@@ -124,7 +124,7 @@ budget-tracker-pro/
 - Dự báo thu chi cuối tháng
 - Insights tự động
 
-## 📁 Cấu trúc dữ liệu Firestore
+## Cấu trúc dữ liệu Firestore
 
 ```javascript
 transactions {
@@ -138,7 +138,7 @@ transactions {
 }
 ```
 
-## 🎨 Danh mục
+## Danh mục
 
 | Icon | Tên | Code |
 |------|-----|------|
@@ -151,7 +151,7 @@ transactions {
 | 💡 | Hóa đơn | bills |
 | 📦 | Khác | other |
 
-## 💡 Cách sử dụng
+## Cách sử dụng
 
 ### Thêm giao dịch
 1. Nhập mô tả
@@ -161,7 +161,7 @@ transactions {
 5. Nhấn "Thêm giao dịch"
 
 ### Sửa giao dịch
-- Click icon ✏️ bên cạnh giao dịch
+- Click icon bên cạnh giao dịch
 - Chỉnh sửa mô tả hoặc số tiền
 - Click ✓ để lưu hoặc ✕ để hủy
 
@@ -176,12 +176,12 @@ transactions {
 
 ## 🔒 Bảo mật
 
-- ✅ Chỉ user đã đăng nhập mới xem được data
-- ✅ Mỗi user chỉ xem được giao dịch của mình
-- ✅ Firestore Rules bảo vệ dữ liệu
-- ✅ Google Sign-In an toàn
+- Chỉ user đã đăng nhập mới xem được data
+- Mỗi user chỉ xem được giao dịch của mình
+- Firestore Rules bảo vệ dữ liệu
+- Google Sign-In an toàn
 
-## 🎯 Tính năng sắp tới
+## Tính năng sắp tới
 
 - [ ] Đặt mục tiêu chi tiêu
 - [ ] Nhắc nhở thanh toán hóa đơn
@@ -191,15 +191,7 @@ transactions {
 - [ ] Backup & Restore
 - [ ] Shared budgets
 
-## 🐛 Báo lỗi
-
-Nếu gặp lỗi, vui lòng tạo issue hoặc liên hệ.
-
-## 📝 License
-
-MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
-
-## 🙏 Credits
+## Credits
 
 - React + Vite
 - Firebase
