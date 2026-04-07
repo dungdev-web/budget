@@ -227,9 +227,7 @@ export default function App() {
   const filteredTransactions = transactions.filter((t) => {
     const matchesCategory =
       filterCategory === "all" || t.category === filterCategory;
-    const matchesSearch = t.text
-      .toLowerCase()
-      .includes(searchTerm.toLowerCase());
+    const matchesSearch = (t.text || "").toLowerCase().includes(searchTerm.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
